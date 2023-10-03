@@ -13,7 +13,7 @@ public class BoardService {
     @Autowired
     private BoardRepository boardRepository;
     // 글 작성 처리
-    public void wirte(Board board) {
+    public void write(Board board) {
         boardRepository.save(board);
     }
 
